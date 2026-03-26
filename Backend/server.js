@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 // app.use(cors());
 app.use(cors({
-  origin: "https://civi-core.vercel.app/", 
+  origin: "https://civi-core.vercel.app", 
   credentials: true
 }));
 
