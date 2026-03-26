@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 // app.use(cors());
 app.use(cors({
-  origin: "http://localhost:5173", // react vite default
+  origin: "https://civi-core.vercel.app/", 
   credentials: true
 }));
 
